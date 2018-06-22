@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nota-service:
+    build: ./nota
+    volumes:
+      - ./nota:/app
+    ports:
+      - 5000:8080
